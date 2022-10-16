@@ -33,7 +33,7 @@ const displayCharacters = (characters) => {
             <li class="character">
                 <h2>${character.name}</h2>
                 <p>${character.slug} <span>${character.biography.publisher}</span></p>
-                <img src="${character.images.lg}"></img>
+                <img src="${character.images.sm}"></img>
             </li>
         `;
     })
